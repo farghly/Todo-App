@@ -10,8 +10,15 @@ The idea of the application is make a list of tasks, you want to complete or thi
  ## Screenshots from application 
  
 ### **Register screen**
-<img src="https://github.com/farghly/Todo-App/blob/master/public/img/appScreenshots/Register-Screen.PNG" width="512"/>
+![SignIn screen](/public/img/appScreenshots/Register-Screen.PNG)
 
+### **SignIn screen**
+
+![SignIn screen](/public/img/appScreenshots/singIn-screen.PNG)
+
+### **Tasks list screen**
+
+![SignIn screen](/public/img/appScreenshots/tasks-list.PNG)
 
 <br />
 
