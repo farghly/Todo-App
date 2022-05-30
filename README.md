@@ -7,7 +7,7 @@ The idea of the application is make a list of tasks, you want to complete or thi
 
 <br />
 
-<!-- ## Screenshots from application -->
+ ## Screenshots from application 
  
 ### **Register screen**
 <img src="https://github.com/farghly/Todo-App/blob/master/public/img/appScreenshots/Register-Screen.PNG" width="512"/>
