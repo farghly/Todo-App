@@ -1,6 +1,12 @@
 ## ToDo App
 *Laravel version:9.14*
 
+**About the application**
+The idea of the application is make a list of tasks you want to complete or things that you want to do
+
+## Screenshots from application
+
+
 To use this application first clone it 
 ```bash
 git clone https://github.com/farghly/Todo-App.git
