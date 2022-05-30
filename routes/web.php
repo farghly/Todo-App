@@ -17,12 +17,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [AuthController::class,'home']);
 
+Route::group(['middleware'=>'guest','controller'=>AuthController::class],function(){
+    Route::post('/login', 'postLogin')->name('login');
+    Route::get('/login', 'getLogin')->name('login');
+});
 
-/* Route::get('/login',[AuthController::class,'getLogin'])->middleware('guest');
-Route::get('/login',[AuthController::class,'postLogin'])->middleware('guest'); */
-
-Route::post('/login', [AuthController::class,'postLogin'])->middleware('guest')->name('login');
-Route::get('/login', [AuthController::class,'getLogin'])->middleware('guest')->name('login');
 Route::get('/logout',[AuthController::class,'logout'])->middleware('auth');
 
 // Registration and User Profile
