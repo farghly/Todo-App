@@ -7,22 +7,7 @@ The idea of the application is make a list of tasks, you want to complete or thi
 
 <br />
 
- ## Screenshots from application 
- 
-### **Register screen**
-![SignIn screen](/public/img/appScreenshots/Register-Screen.PNG)
-
-### **SignIn screen**
-
-![SignIn screen](/public/img/appScreenshots/singIn-screen.PNG)
-
-### **Tasks list screen**
-
-![SignIn screen](/public/img/appScreenshots/tasks-list.PNG)
-
-<br />
-
-To use this application first clone it 
+To use this application first clone it :
 ```bash
 git clone https://github.com/farghly/Todo-App.git
 ```
@@ -52,3 +37,17 @@ php artisan migrate
 ```code
 php artisan serve
 ```
+<br />
+ 
+ ## Screenshots from application 
+ 
+### **Register screen**
+![SignIn screen](/public/img/appScreenshots/Register-Screen.PNG)
+
+### **SignIn screen**
+
+![SignIn screen](/public/img/appScreenshots/singIn-screen.PNG)
+
+### **Tasks list screen**
+
+![SignIn screen](/public/img/appScreenshots/tasks-list.PNG)
