@@ -24,7 +24,7 @@ copy .env.example .env
 
 **Don't forget to generate key**
 ```bash
-php artisan generate:key
+php artisan key:generate
 ```
 <br/>
 
