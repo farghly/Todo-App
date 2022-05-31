@@ -14,7 +14,9 @@ class AuthController extends Controller
      */
     public function home()
     {
-        return view('home');
+        if(Auth::guest())
+            return view('home');
+        return redirect('/todo');
     }
 
     /**
